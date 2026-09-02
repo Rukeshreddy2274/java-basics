@@ -27,28 +27,28 @@ public class rDuplicates {
         int[] arr = {1, 2, 14, 3, 14};
         int[] arr1 = {1, 2, 14, 3, 14};
 
-        int n = rmDuplicates(arr);
-        System.out.println(Arrays.toString(Arrays.copyOf(arr, n)));
+        // int n = rmDuplicates(arr);
+        // System.out.println(Arrays.toString(Arrays.copyOf(arr, n)));
 
         UnSOrted(arr1);
 
     }
 
-    public static int rmDuplicates(int[] arr) {
+    // public static int rmDuplicates(int[] arr) {
 
-        if(arr.length == 0) {
-            return 0;
-        }
+    //     if(arr.length == 0) {
+    //         return 0;
+    //     }
 
-        int j = 0;
-        for(int i = 1; i < arr.length; i++) {
-            if(arr[i] != arr[j]) {
-                j++;
-                arr[j] = arr[i];
-            }
-        }
-        return j + 1;
-    }
+    //     int j = 0;
+    //     for(int i = 1; i < arr.length; i++) {
+    //         if(arr[i] != arr[j]) {
+    //             j++;
+    //             arr[j] = arr[i];
+    //         }
+    //     }
+    //     return j + 1;
+    // }
 
     public static void UnSOrted(int[] arr) {
 
